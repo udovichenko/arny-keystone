@@ -1,0 +1,21 @@
+{
+  "name": "arny-backend",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "keystone-next dev",
+    "start": "keystone-next start",
+    "build": "keystone-next build"
+  },
+  "dependencies": {
+    "@keystone-next/fields-document": "^10.0.0",
+    "@keystone-next/keystone": "^26.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": "^12.20 || >= 14.13"
+  }
+}
